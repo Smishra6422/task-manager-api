@@ -1,7 +1,7 @@
 const jwt = require('jsonwebtoken')
 const User = require('../models/user')
 
-// it will check the token coming from authorization and if exist then it will display the details of user
+// it will check the token coming from authorization and if exist then it will display the details of user //
 
 const auth = async (req, res, next) => {
     try {
